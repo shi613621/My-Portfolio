@@ -1,0 +1,55 @@
+.color-black {
+    color: #424242;
+}
+.color-red {
+    color: red;
+}
+
+.block-header {
+    list-style: none;
+	display: flex;
+	flex-wrap:wrap;
+    text-align: center;
+    border-bottom: medium solid red;
+}
+.block-header li {
+	width: calc(15%/3);
+	padding-right: 30px;
+    padding-left: 10px;
+}
+
+.block-header li p {
+    font-size: 15px;
+    border-bottom-style:dotted ;
+    padding-bottom: 8px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.block-header li img {
+	max-width:100%; /*画像のはみだしを防ぐ*/
+	height: auto; /*画像の縦横比を維持 */
+    width: 30px;
+    height:30px;
+}
+
+.box-profile {
+    display:flex;
+    list-style: none;
+}
+
+.box-profile li {
+    width: calc(75%/2);
+    margin: 1%;
+}
+
+.box-profile li h1 {
+    font-size: 70px;
+}
+
+.box-profile li p {
+    font-size: 30px;
+}
+.box-profile li img {
+    width: 100%;
+}
